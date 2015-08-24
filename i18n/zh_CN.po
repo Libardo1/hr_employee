@@ -1,0 +1,197 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* hr_employee_horn
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-08-24 07:55+0000\n"
+"PO-Revision-Date: 2015-08-24 07:55+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: hr_employee_horn
+#: field:hr.employee,age:0
+msgid "Age"
+msgstr "年龄"
+
+#. module: hr_employee_horn
+#: field:hr.employee,birthdate:0
+msgid "Birthdate"
+msgstr "生日"
+
+#. module: hr_employee_horn
+#: field:hr.employee,contact_number:0
+msgid "Contact Number"
+msgstr "联系电话"
+
+#. module: hr_employee_horn
+#: field:hr.employee,degree:0
+msgid "Degree"
+msgstr "学历"
+
+#. module: hr_employee_horn
+#: field:hr.employee,emergency_contact:0
+msgid "Emergency Contact"
+msgstr "紧急联系人"
+
+#. module: hr_employee_horn
+#: model:ir.model,name:hr_employee_horn.model_hr_employee
+msgid "Employee"
+msgstr "员工"
+
+#. module: hr_employee_horn
+#: field:hr.employee,entry_date:0
+msgid "Entry Date"
+msgstr "入职日期"
+
+#. module: hr_employee_horn
+#: selection:hr.employee,horn_gender:0
+msgid "Female"
+msgstr "女性"
+
+#. module: hr_employee_horn
+#: field:hr.employee,horn_gender:0
+msgid "Gender"
+msgstr "性别"
+
+#. module: hr_employee_horn
+#: field:hr.employee,graduated_school:0
+msgid "Graduated School"
+msgstr "毕业院校"
+
+#. module: hr_employee_horn
+#: field:hr.employee,graduation_date:0
+msgid "Graduation Date"
+msgstr "毕业日期"
+
+#. module: hr_employee_horn
+#: field:hr.employee,hometown:0
+msgid "Hometown"
+msgstr "籍贯"
+
+#. module: hr_employee_horn
+#: view:hr.employee:hr_employee_horn.view_employee_form_horn
+msgid "Horn Field"
+msgstr "豪恩字段"
+
+#. module: hr_employee_horn
+#: field:hr.employee,id_address:0
+msgid "ID Address"
+msgstr "身份证地址"
+
+#. module: hr_employee_horn
+#: field:hr.employee,id_number:0
+msgid "ID Card Number"
+msgstr "身份证号码"
+
+#. module: hr_employee_horn
+#: field:hr.employee,id_ending_date:0
+msgid "ID Ending Date"
+msgstr "身份证终止日期"
+
+#. module: hr_employee_horn
+#: field:hr.employee,import_number:0
+msgid "Import Number"
+msgstr "导入卡号"
+
+#. module: hr_employee_horn
+#: field:hr.employee,internal_number:0
+msgid "Internal Number"
+msgstr "内部编码"
+
+#. module: hr_employee_horn
+#: field:hr.employee,leave_date:0
+msgid "Leave Date"
+msgstr "离职日期"
+
+#. module: hr_employee_horn
+#: field:hr.employee,leave_reason:0
+msgid "Leave Reason"
+msgstr "离职原因"
+
+#. module: hr_employee_horn
+#: field:hr.employee,leave_type:0
+msgid "Leave Type"
+msgstr "离职类别"
+
+#. module: hr_employee_horn
+#: selection:hr.employee,employee_status:0
+msgid "Left"
+msgstr "已离职"
+
+#. module: hr_employee_horn
+#: field:hr.employee,major:0
+msgid "Major"
+msgstr "专业"
+
+#. module: hr_employee_horn
+#: selection:hr.employee,horn_gender:0
+msgid "Male"
+msgstr "男性"
+
+#. module: hr_employee_horn
+#: field:hr.employee,marital_status:0
+msgid "Marital Status"
+msgstr "婚姻状态"
+
+#. module: hr_employee_horn
+#: selection:hr.employee,marital_status:0
+msgid "Married"
+msgstr "已婚"
+
+#. module: hr_employee_horn
+#: field:hr.employee,nation:0
+msgid "Nation"
+msgstr "民族"
+
+#. module: hr_employee_horn
+#: selection:hr.employee,marital_status:0
+msgid "Not Married"
+msgstr "未婚"
+
+#. module: hr_employee_horn
+#: field:hr.employee,political_status:0
+msgid "Political Status"
+msgstr "政治面貌"
+
+#. module: hr_employee_horn
+#: field:hr.employee,promotion_date:0
+msgid "Promotion Date"
+msgstr "晋升日期"
+
+#. module: hr_employee_horn
+#: field:hr.employee,star_evaluation:0
+msgid "Star Evaluation"
+msgstr "星级考核"
+
+#. module: hr_employee_horn
+#: field:hr.employee,employee_status:0
+msgid "Status"
+msgstr "状态"
+
+#. module: hr_employee_horn
+#: view:hr.employee:hr_employee_horn.view_employee_form_horn
+msgid "True"
+msgstr "True"
+
+#. module: hr_employee_horn
+#: field:hr.employee,work_age:0
+msgid "Work Age"
+msgstr "工龄"
+
+#. module: hr_employee_horn
+#: field:hr.employee,work_number:0
+msgid "Work Number"
+msgstr "工号"
+
+#. module: hr_employee_horn
+#: selection:hr.employee,employee_status:0
+msgid "Working"
+msgstr "在职"
+
