@@ -1,9 +1,23 @@
 from openerp.osv import fields,orm
 from openerp.tools.translate import _
+from datetime import datetime,date
+import time
 
 class hr_employee(orm.Model):
 	_name = "hr.employee"
 	_inherit = "hr.employee"
+
+	def compute_age(self,cr,uid,ids,field_name,arg,context=None):
+		result = {}
+		age = 0
+		for rec in self.browse(cr,uid,ids,context=context):
+			if rec.birthdate:
+				get_birthdate = datetime.strptime(rec.birthdate,'%Y-%m-%d')
+				year_of_birth = int(get_birthdate.strftime("%Y"))
+				current_year = datetime.now().year 
+				age = current_year - year_of_birth
+			result[rec.id] = str(age)
+			return result
 
 	_columns = {
 		'work_number' : fields.char("Work Number"),
@@ -27,7 +41,7 @@ class hr_employee(orm.Model):
 		'leave_type' : fields.char("Leave Type"),
 		'import_number' : fields.char("Import Number"),
 		'work_age' : fields.char("Work Age"),
-		'age' : fields.char("Age"),
+		'age' : fields.function(compute_age,type='char',string="Age"),
 		'political_status' : fields.char("Political Status"),
 		'emergency_contact' : fields.char("Emergency Contact"),
 		'contact_number' : fields.char("Contact Number"),
